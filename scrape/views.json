@@ -1,0 +1,717 @@
+{
+ "Banana": {
+  "alpha": "75",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Bay": {
+  "alpha": "26",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Berry": {
+  "alpha": "60",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Black": {
+  "alpha": "51",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Blossom": {
+  "alpha": "65",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Blue Jean": {
+  "alpha": "09",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Blue Spruce": {
+  "alpha": "64",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Brick": {
+  "alpha": "52",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Bright Orange": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Bright Salmon": {
+  "alpha": "46",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Burnt Orange": {
+  "alpha": "03",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Butter": {
+  "alpha": "05",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Chalky Mint": {
+  "alpha": "93",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Chambray": {
+  "alpha": "63",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Chili": {
+  "alpha": "53",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "China Blue": {
+  "alpha": "81",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Citrus": {
+  "alpha": "32",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Crimson": {
+  "alpha": "10",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Crunchberry": {
+  "alpha": "15",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Denim": {
+  "alpha": "39",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Dusk": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Emerald": {
+  "alpha": "41",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Espresso": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Flo Blue": {
+  "alpha": "55",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Granite": {
+  "alpha": "83",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Grape": {
+  "alpha": "74",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Graphite": {
+  "alpha": "29",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Grey": {
+  "alpha": "43",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Hemp": {
+  "alpha": "40",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Hydrangea": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Ice Blue": {
+  "alpha": "45",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Island Green": {
+  "alpha": "c4",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Island Reef": {
+  "alpha": "ag",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Ivory": {
+  "alpha": "50",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Khaki": {
+  "alpha": "22",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Lagoon": {
+  "alpha": "06",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Light Green": {
+  "alpha": "44",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Melon": {
+  "alpha": "59",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Midnight": {
+  "alpha": "07",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Moss": {
+  "alpha": "25",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Mustard": {
+  "alpha": "36",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Mystic Blue": {
+  "alpha": "76",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Navy": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Neon Cantaloupe": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Neon Lemon": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Neon Pink": {
+  "alpha": "19",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Neon Red Orange": {
+  "alpha": "21",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Neon Violet": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Orchid": {
+  "alpha": "c5",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Paprika": {
+  "alpha": "12",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Peachy": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Pepper": {
+  "alpha": "11",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Periwinkle": {
+  "alpha": "57",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Red": {
+  "alpha": "84",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back"
+  ]
+ },
+ "Rose Quartz": {
+  "alpha": null,
+  "views": [
+   "flat_front",
+   "flat_back",
+   "flat_detail"
+  ]
+ },
+ "Royal Caribe": {
+  "alpha": "56",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Sage": {
+  "alpha": "08",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Sandstone": {
+  "alpha": "20",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Sapphire": {
+  "alpha": "66",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Seafoam": {
+  "alpha": "16",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Terracotta": {
+  "alpha": "b6",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "True Navy": {
+  "alpha": "47",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Violet": {
+  "alpha": "62",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Washed Denim": {
+  "alpha": "48",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Watermelon": {
+  "alpha": "31",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "White": {
+  "alpha": "00",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Wine": {
+  "alpha": "73",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ },
+ "Yam": {
+  "alpha": "70",
+  "views": [
+   "model_front",
+   "model_side",
+   "model_back",
+   "flat_front",
+   "flat_angle",
+   "flat_back"
+  ]
+ }
+}

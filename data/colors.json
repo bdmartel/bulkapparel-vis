@@ -1,0 +1,3113 @@
+{
+ "meta": {
+  "style": "1717",
+  "brand": "Comfort Colors",
+  "title": "Comfort Colors 1717 Garment Dyed Heavyweight Ringspun Short Sleeve Shirt",
+  "source": "https://www.bulkapparel.com/tshirts/comfort-colors-1717-garment-dyed-heavyweight-ringspun-short-sleeve-shirt",
+  "price": "6.78",
+  "colors": 68,
+  "with_model": 58,
+  "images": 375
+ },
+ "colors": [
+  {
+   "name": "White",
+   "slug": "white",
+   "hex": "#ffffff",
+   "code": "00",
+   "pid": "34670",
+   "alpha": "00",
+   "order": 0,
+   "featured": 1,
+   "avg": "#ededef",
+   "h": 240.0,
+   "l": 0.9333,
+   "s": 0.0588,
+   "family": "White",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "white__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "white__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "white__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "white__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "white__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "white__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Black",
+   "slug": "black",
+   "hex": "#0d0d0d",
+   "code": "50",
+   "pid": "34669",
+   "alpha": "51",
+   "order": 0,
+   "featured": 1,
+   "avg": "#222222",
+   "h": 0.0,
+   "l": 0.1333,
+   "s": 0.0,
+   "family": "Black",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "black__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "black__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "black__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "black__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "black__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "black__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Blue Jean",
+   "slug": "blue-jean",
+   "hex": "#536279",
+   "code": "98",
+   "pid": "31060",
+   "alpha": "09",
+   "order": 0,
+   "featured": 1,
+   "avg": "#47566d",
+   "h": 216.3,
+   "l": 0.3529,
+   "s": 0.2111,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "blue-jean__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "blue-jean__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "blue-jean__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "blue-jean__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "blue-jean__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "blue-jean__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Orchid",
+   "slug": "orchid",
+   "hex": "#e0cfdf",
+   "code": "21",
+   "pid": "73439",
+   "alpha": "c5",
+   "order": 0,
+   "featured": 1,
+   "avg": "#d3c4d2",
+   "h": 304.0,
+   "l": 0.798,
+   "s": 0.1456,
+   "family": "Purple",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "orchid__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "orchid__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "orchid__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "orchid__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "orchid__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "orchid__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Sandstone",
+   "slug": "sandstone",
+   "hex": "#9c9787",
+   "code": "73",
+   "pid": "31076",
+   "alpha": "20",
+   "order": 0,
+   "featured": 1,
+   "avg": "#9f9989",
+   "h": 43.6,
+   "l": 0.5804,
+   "s": 0.1028,
+   "family": "Neutral",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "sandstone__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "sandstone__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "sandstone__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "sandstone__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "sandstone__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "sandstone__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Seafoam",
+   "slug": "seafoam",
+   "hex": "#579e98",
+   "code": "05",
+   "pid": "32900",
+   "alpha": "16",
+   "order": 0,
+   "featured": 1,
+   "avg": "#5da49e",
+   "h": 174.9,
+   "l": 0.5039,
+   "s": 0.2806,
+   "family": "Teal",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "seafoam__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "seafoam__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "seafoam__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "seafoam__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "seafoam__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "seafoam__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Banana",
+   "slug": "banana",
+   "hex": "#f9e1b2",
+   "code": "43",
+   "pid": "47183",
+   "alpha": "75",
+   "order": 3,
+   "featured": 0,
+   "avg": "#fbe5b9",
+   "h": 40.0,
+   "l": 0.8549,
+   "s": 0.8919,
+   "family": "Yellow",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "banana__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "banana__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "banana__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "banana__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "banana__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "banana__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Bay",
+   "slug": "bay",
+   "hex": "#bbc3b6",
+   "code": "56",
+   "pid": "47184",
+   "alpha": "26",
+   "order": 4,
+   "featured": 0,
+   "avg": "#b9c3b5",
+   "h": 102.9,
+   "l": 0.7373,
+   "s": 0.1045,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "bay__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "bay__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "bay__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "bay__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "bay__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "bay__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Berry",
+   "slug": "berry",
+   "hex": "#ae849c",
+   "code": "71",
+   "pid": "47185",
+   "alpha": "60",
+   "order": 5,
+   "featured": 0,
+   "avg": "#93667f",
+   "h": 326.7,
+   "l": 0.4882,
+   "s": 0.1807,
+   "family": "Purple",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "berry__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "berry__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "berry__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "berry__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "berry__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "berry__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Blossom",
+   "slug": "blossom",
+   "hex": "#ecb6c3",
+   "code": "31",
+   "pid": "47186",
+   "alpha": "65",
+   "order": 6,
+   "featured": 0,
+   "avg": "#ecbdc7",
+   "h": 347.2,
+   "l": 0.8333,
+   "s": 0.5529,
+   "family": "Pink",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "blossom__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "blossom__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "blossom__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "blossom__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "blossom__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "blossom__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Blue Spruce",
+   "slug": "blue-spruce",
+   "hex": "#546c6c",
+   "code": "76",
+   "pid": "32887",
+   "alpha": "64",
+   "order": 8,
+   "featured": 0,
+   "avg": "#536b69",
+   "h": 175.0,
+   "l": 0.3725,
+   "s": 0.1263,
+   "family": "Teal",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "blue-spruce__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "blue-spruce__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "blue-spruce__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "blue-spruce__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "blue-spruce__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "blue-spruce__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Brick",
+   "slug": "brick",
+   "hex": "#7d3237",
+   "code": "53",
+   "pid": "32886",
+   "alpha": "52",
+   "order": 9,
+   "featured": 0,
+   "avg": "#7e3338",
+   "h": 356.0,
+   "l": 0.3471,
+   "s": 0.4237,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "brick__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "brick__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "brick__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "brick__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "brick__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "brick__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Bright Orange",
+   "slug": "bright-orange",
+   "hex": "#ff6900",
+   "code": "25",
+   "pid": "32890",
+   "alpha": null,
+   "order": 10,
+   "featured": 0,
+   "avg": "#eb761c",
+   "h": 26.1,
+   "l": 0.5157,
+   "s": 0.8381,
+   "family": "Orange",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "bright-orange__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "bright-orange__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "bright-orange__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Bright Salmon",
+   "slug": "bright-salmon",
+   "hex": "#f96652",
+   "code": "51",
+   "pid": "47187",
+   "alpha": "46",
+   "order": 11,
+   "featured": 0,
+   "avg": "#fb6a57",
+   "h": 7.0,
+   "l": 0.6627,
+   "s": 0.9535,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "bright-salmon__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "bright-salmon__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "bright-salmon__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "bright-salmon__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "bright-salmon__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "bright-salmon__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Burnt Orange",
+   "slug": "burnt-orange",
+   "hex": "#fc8134",
+   "code": "66",
+   "pid": "31062",
+   "alpha": "03",
+   "order": 12,
+   "featured": 0,
+   "avg": "#fe7f32",
+   "h": 22.6,
+   "l": 0.5961,
+   "s": 0.9903,
+   "family": "Orange",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "burnt-orange__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "burnt-orange__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "burnt-orange__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "burnt-orange__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "burnt-orange__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "burnt-orange__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Butter",
+   "slug": "butter",
+   "hex": "#fbd894",
+   "code": "41",
+   "pid": "47188",
+   "alpha": "05",
+   "order": 13,
+   "featured": 0,
+   "avg": "#f8d68d",
+   "h": 40.9,
+   "l": 0.7627,
+   "s": 0.8843,
+   "family": "Yellow",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "butter__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "butter__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "butter__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "butter__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "butter__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "butter__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Chalky Mint",
+   "slug": "chalky-mint",
+   "hex": "#8ed0c3",
+   "code": "47",
+   "pid": "47190",
+   "alpha": "93",
+   "order": 14,
+   "featured": 0,
+   "avg": "#95d6c9",
+   "h": 168.0,
+   "l": 0.7118,
+   "s": 0.4422,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "chalky-mint__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "chalky-mint__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "chalky-mint__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "chalky-mint__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "chalky-mint__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "chalky-mint__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Chambray",
+   "slug": "chambray",
+   "hex": "#c9dbdf",
+   "code": "04",
+   "pid": "47192",
+   "alpha": "63",
+   "order": 15,
+   "featured": 0,
+   "avg": "#c7d7dd",
+   "h": 196.4,
+   "l": 0.8235,
+   "s": 0.2444,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "chambray__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "chambray__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "chambray__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "chambray__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "chambray__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "chambray__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Chili",
+   "slug": "chili",
+   "hex": "#842d40",
+   "code": "70",
+   "pid": "31063",
+   "alpha": "53",
+   "order": 16,
+   "featured": 0,
+   "avg": "#872f41",
+   "h": 347.7,
+   "l": 0.3569,
+   "s": 0.4835,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "chili__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "chili__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "chili__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "chili__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "chili__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "chili__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "China Blue",
+   "slug": "china-blue",
+   "hex": "#4c5d85",
+   "code": "75",
+   "pid": "47195",
+   "alpha": "81",
+   "order": 17,
+   "featured": 0,
+   "avg": "#4c5c83",
+   "h": 222.5,
+   "l": 0.4059,
+   "s": 0.2657,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "china-blue__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "china-blue__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "china-blue__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "china-blue__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "china-blue__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "china-blue__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Citrus",
+   "slug": "citrus",
+   "hex": "#e59d3f",
+   "code": "40",
+   "pid": "32888",
+   "alpha": "32",
+   "order": 18,
+   "featured": 0,
+   "avg": "#eaa142",
+   "h": 33.9,
+   "l": 0.5882,
+   "s": 0.8,
+   "family": "Orange",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "citrus__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "citrus__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "citrus__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "citrus__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "citrus__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "citrus__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Crimson",
+   "slug": "crimson",
+   "hex": "#91313d",
+   "code": "22",
+   "pid": "31065",
+   "alpha": "10",
+   "order": 19,
+   "featured": 0,
+   "avg": "#90303c",
+   "h": 352.5,
+   "l": 0.3765,
+   "s": 0.5,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "crimson__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "crimson__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "crimson__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "crimson__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "crimson__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "crimson__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Crunchberry",
+   "slug": "crunchberry",
+   "hex": "#c45575",
+   "code": "69",
+   "pid": "32896",
+   "alpha": "15",
+   "order": 20,
+   "featured": 0,
+   "avg": "#cc5e7e",
+   "h": 342.5,
+   "l": 0.5843,
+   "s": 0.5189,
+   "family": "Pink",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "crunchberry__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "crunchberry__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "crunchberry__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "crunchberry__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "crunchberry__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "crunchberry__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Denim",
+   "slug": "denim",
+   "hex": "#3f4656",
+   "code": "68",
+   "pid": "31066",
+   "alpha": "39",
+   "order": 21,
+   "featured": 0,
+   "avg": "#404757",
+   "h": 221.7,
+   "l": 0.2961,
+   "s": 0.1523,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "denim__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "denim__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "denim__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "denim__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "denim__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "denim__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Dusk",
+   "slug": "dusk",
+   "hex": "#735b6a",
+   "code": "42",
+   "pid": "137731",
+   "alpha": null,
+   "order": 22,
+   "featured": 0,
+   "avg": "#7d6471",
+   "h": 328.8,
+   "l": 0.4412,
+   "s": 0.1111,
+   "family": "Purple",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "dusk__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "dusk__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "dusk__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Emerald",
+   "slug": "emerald",
+   "hex": "#578885",
+   "code": "23",
+   "pid": "47198",
+   "alpha": "41",
+   "order": 23,
+   "featured": 0,
+   "avg": "#5a8c8b",
+   "h": 178.8,
+   "l": 0.451,
+   "s": 0.2174,
+   "family": "Teal",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "emerald__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "emerald__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "emerald__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "emerald__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "emerald__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "emerald__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Espresso",
+   "slug": "espresso",
+   "hex": "#533625",
+   "code": "20",
+   "pid": "104178",
+   "alpha": null,
+   "order": 24,
+   "featured": 0,
+   "avg": "#7b6154",
+   "h": 20.0,
+   "l": 0.4059,
+   "s": 0.1884,
+   "family": "Brown",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "espresso__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "espresso__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "espresso__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Flo Blue",
+   "slug": "flo-blue",
+   "hex": "#556cb2",
+   "code": "48",
+   "pid": "31067",
+   "alpha": "55",
+   "order": 25,
+   "featured": 0,
+   "avg": "#5870b4",
+   "h": 224.3,
+   "l": 0.5255,
+   "s": 0.3802,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "flo-blue__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "flo-blue__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "flo-blue__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "flo-blue__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "flo-blue__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "flo-blue__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Granite",
+   "slug": "granite",
+   "hex": "#aaa9ae",
+   "code": "59",
+   "pid": "47199",
+   "alpha": "83",
+   "order": 26,
+   "featured": 0,
+   "avg": "#a7a6aa",
+   "h": 255.0,
+   "l": 0.6588,
+   "s": 0.023,
+   "family": "Grey",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "granite__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "granite__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "granite__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "granite__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "granite__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "granite__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Grape",
+   "slug": "grape",
+   "hex": "#7e7095",
+   "code": "67",
+   "pid": "47200",
+   "alpha": "74",
+   "order": 27,
+   "featured": 0,
+   "avg": "#78698e",
+   "h": 264.3,
+   "l": 0.4843,
+   "s": 0.1498,
+   "family": "Purple",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "grape__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "grape__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "grape__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "grape__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "grape__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "grape__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Graphite",
+   "slug": "graphite",
+   "hex": "#363940",
+   "code": "13",
+   "pid": "32889",
+   "alpha": "29",
+   "order": 28,
+   "featured": 0,
+   "avg": "#3f3f47",
+   "h": 240.0,
+   "l": 0.2627,
+   "s": 0.0597,
+   "family": "Grey",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "graphite__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "graphite__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "graphite__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "graphite__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "graphite__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "graphite__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Grey",
+   "slug": "grey",
+   "hex": "#999190",
+   "code": "58",
+   "pid": "31068",
+   "alpha": "43",
+   "order": 29,
+   "featured": 0,
+   "avg": "#6d6d6d",
+   "h": 0.0,
+   "l": 0.4275,
+   "s": 0.0,
+   "family": "Grey",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "grey__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "grey__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "grey__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "grey__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "grey__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "grey__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Hemp",
+   "slug": "hemp",
+   "hex": "#49503c",
+   "code": "64",
+   "pid": "31069",
+   "alpha": "40",
+   "order": 30,
+   "featured": 0,
+   "avg": "#4e533f",
+   "h": 75.0,
+   "l": 0.2863,
+   "s": 0.137,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "hemp__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "hemp__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "hemp__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "hemp__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "hemp__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "hemp__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Hydrangea",
+   "slug": "hydrangea",
+   "hex": "#c5dbea",
+   "code": "12",
+   "pid": "104176",
+   "alpha": null,
+   "order": 31,
+   "featured": 0,
+   "avg": "#c2d8e6",
+   "h": 203.3,
+   "l": 0.8314,
+   "s": 0.4186,
+   "family": "Blue",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "hydrangea__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "hydrangea__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "hydrangea__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Ice Blue",
+   "slug": "ice-blue",
+   "hex": "#62849d",
+   "code": "37",
+   "pid": "32893",
+   "alpha": "45",
+   "order": 32,
+   "featured": 0,
+   "avg": "#5f8297",
+   "h": 202.5,
+   "l": 0.4824,
+   "s": 0.2276,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "ice-blue__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "ice-blue__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "ice-blue__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "ice-blue__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "ice-blue__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "ice-blue__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Island Green",
+   "slug": "island-green",
+   "hex": "#9dc6b8",
+   "code": "02",
+   "pid": "73436",
+   "alpha": "c4",
+   "order": 33,
+   "featured": 0,
+   "avg": "#01bda2",
+   "h": 171.4,
+   "l": 0.3725,
+   "s": 0.9895,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "island-green__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "island-green__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "island-green__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "island-green__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "island-green__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "island-green__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Island Reef",
+   "slug": "island-reef",
+   "hex": "#a8e0c3",
+   "code": "72",
+   "pid": "47201",
+   "alpha": "ag",
+   "order": 34,
+   "featured": 0,
+   "avg": "#ade3c8",
+   "h": 150.0,
+   "l": 0.7843,
+   "s": 0.4909,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "island-reef__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "island-reef__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "island-reef__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "island-reef__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "island-reef__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "island-reef__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Ivory",
+   "slug": "ivory",
+   "hex": "#ece4d9",
+   "code": "24",
+   "pid": "47202",
+   "alpha": "50",
+   "order": 35,
+   "featured": 0,
+   "avg": "#ede2d9",
+   "h": 27.0,
+   "l": 0.8902,
+   "s": 0.3571,
+   "family": "White",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "ivory__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "ivory__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "ivory__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "ivory__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "ivory__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "ivory__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Khaki",
+   "slug": "khaki",
+   "hex": "#8c8573",
+   "code": "77",
+   "pid": "31070",
+   "alpha": "22",
+   "order": 36,
+   "featured": 0,
+   "avg": "#8b8271",
+   "h": 39.2,
+   "l": 0.4941,
+   "s": 0.1032,
+   "family": "Neutral",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "khaki__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "khaki__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "khaki__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "khaki__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "khaki__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "khaki__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Lagoon",
+   "slug": "lagoon",
+   "hex": "#41abbb",
+   "code": "63",
+   "pid": "31071",
+   "alpha": "06",
+   "order": 37,
+   "featured": 0,
+   "avg": "#45b0c2",
+   "h": 188.6,
+   "l": 0.5157,
+   "s": 0.5061,
+   "family": "Teal",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "lagoon__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "lagoon__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "lagoon__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "lagoon__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "lagoon__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "lagoon__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Light Green",
+   "slug": "light-green",
+   "hex": "#5e8074",
+   "code": "39",
+   "pid": "31072",
+   "alpha": "44",
+   "order": 38,
+   "featured": 0,
+   "avg": "#5d7d72",
+   "h": 159.4,
+   "l": 0.4275,
+   "s": 0.1468,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "light-green__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "light-green__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "light-green__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "light-green__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "light-green__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "light-green__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Melon",
+   "slug": "melon",
+   "hex": "#fd9452",
+   "code": "34",
+   "pid": "47207",
+   "alpha": "59",
+   "order": 39,
+   "featured": 0,
+   "avg": "#fd8d46",
+   "h": 23.3,
+   "l": 0.6333,
+   "s": 0.9786,
+   "family": "Orange",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "melon__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "melon__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "melon__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "melon__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "melon__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "melon__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Midnight",
+   "slug": "midnight",
+   "hex": "#35425e",
+   "code": "86",
+   "pid": "32897",
+   "alpha": "07",
+   "order": 40,
+   "featured": 0,
+   "avg": "#2f3d57",
+   "h": 219.0,
+   "l": 0.2627,
+   "s": 0.2985,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "midnight__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "midnight__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "midnight__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "midnight__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "midnight__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "midnight__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Moss",
+   "slug": "moss",
+   "hex": "#7d8373",
+   "code": "29",
+   "pid": "47210",
+   "alpha": "25",
+   "order": 41,
+   "featured": 0,
+   "avg": "#818576",
+   "h": 76.0,
+   "l": 0.4922,
+   "s": 0.0598,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "moss__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "moss__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "moss__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "moss__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "moss__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "moss__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Mustard",
+   "slug": "mustard",
+   "hex": "#ebcc91",
+   "code": "28",
+   "pid": "31073",
+   "alpha": "36",
+   "order": 42,
+   "featured": 0,
+   "avg": "#ebc47d",
+   "h": 38.7,
+   "l": 0.7059,
+   "s": 0.7333,
+   "family": "Yellow",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "mustard__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "mustard__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "mustard__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "mustard__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "mustard__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "mustard__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Mystic Blue",
+   "slug": "mystic-blue",
+   "hex": "#758dcb",
+   "code": "94",
+   "pid": "47211",
+   "alpha": "76",
+   "order": 43,
+   "featured": 0,
+   "avg": "#6a81ba",
+   "h": 222.8,
+   "l": 0.5725,
+   "s": 0.367,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "mystic-blue__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "mystic-blue__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "mystic-blue__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "mystic-blue__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "mystic-blue__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "mystic-blue__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Navy",
+   "slug": "navy",
+   "hex": "#44455b",
+   "code": "62",
+   "pid": "47212",
+   "alpha": null,
+   "order": 44,
+   "featured": 0,
+   "avg": "#47485d",
+   "h": 237.3,
+   "l": 0.3216,
+   "s": 0.1341,
+   "family": "Blue",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "navy__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "navy__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "navy__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Neon Cantaloupe",
+   "slug": "neon-cantaloupe",
+   "hex": "#ff6d6a",
+   "code": "90",
+   "pid": "107768",
+   "alpha": null,
+   "order": 45,
+   "featured": 0,
+   "avg": "#fec996",
+   "h": 29.4,
+   "l": 0.7922,
+   "s": 0.9811,
+   "family": "Orange",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "neon-cantaloupe__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "neon-cantaloupe__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "neon-cantaloupe__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Neon Lemon",
+   "slug": "neon-lemon",
+   "hex": "#c4d600",
+   "code": "91",
+   "pid": "107769",
+   "alpha": null,
+   "order": 46,
+   "featured": 0,
+   "avg": "#f2eaa8",
+   "h": 53.5,
+   "l": 0.8039,
+   "s": 0.74,
+   "family": "Yellow",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "neon-lemon__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "neon-lemon__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "neon-lemon__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Neon Pink",
+   "slug": "neon-pink",
+   "hex": "#fe7798",
+   "code": "30",
+   "pid": "34075",
+   "alpha": "19",
+   "order": 47,
+   "featured": 0,
+   "avg": "#fd6691",
+   "h": 342.9,
+   "l": 0.6961,
+   "s": 0.9742,
+   "family": "Pink",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "neon-pink__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "neon-pink__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "neon-pink__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "neon-pink__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "neon-pink__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "neon-pink__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Neon Red Orange",
+   "slug": "neon-red-orange",
+   "hex": "#fd8c7a",
+   "code": "15",
+   "pid": "34073",
+   "alpha": "21",
+   "order": 48,
+   "featured": 0,
+   "avg": "#fd866f",
+   "h": 9.7,
+   "l": 0.7137,
+   "s": 0.9726,
+   "family": "Orange",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "neon-red-orange__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "neon-red-orange__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "neon-red-orange__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "neon-red-orange__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "neon-red-orange__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "neon-red-orange__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Neon Violet",
+   "slug": "neon-violet",
+   "hex": "#7474c1",
+   "code": "92",
+   "pid": "107770",
+   "alpha": null,
+   "order": 49,
+   "featured": 0,
+   "avg": "#ecb8f9",
+   "h": 288.0,
+   "l": 0.849,
+   "s": 0.8442,
+   "family": "Purple",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "neon-violet__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "neon-violet__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "neon-violet__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Paprika",
+   "slug": "paprika",
+   "hex": "#fc4152",
+   "code": "11",
+   "pid": "47216",
+   "alpha": "12",
+   "order": 51,
+   "featured": 0,
+   "avg": "#fe4054",
+   "h": 353.7,
+   "l": 0.6235,
+   "s": 0.9896,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "paprika__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "paprika__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "paprika__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "paprika__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "paprika__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "paprika__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Peachy",
+   "slug": "peachy",
+   "hex": "#d46c36",
+   "code": "35",
+   "pid": "104177",
+   "alpha": null,
+   "order": 52,
+   "featured": 0,
+   "avg": "#f2c1b1",
+   "h": 14.8,
+   "l": 0.8216,
+   "s": 0.7143,
+   "family": "Orange",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "peachy__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "peachy__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "peachy__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Pepper",
+   "slug": "pepper",
+   "hex": "#494949",
+   "code": "09",
+   "pid": "31074",
+   "alpha": "11",
+   "order": 53,
+   "featured": 0,
+   "avg": "#494949",
+   "h": 0.0,
+   "l": 0.2863,
+   "s": 0.0,
+   "family": "Grey",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "pepper__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "pepper__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "pepper__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "pepper__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "pepper__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "pepper__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Periwinkle",
+   "slug": "periwinkle",
+   "hex": "#6f7db8",
+   "code": "45",
+   "pid": "47219",
+   "alpha": "57",
+   "order": 54,
+   "featured": 0,
+   "avg": "#818ec2",
+   "h": 228.0,
+   "l": 0.6333,
+   "s": 0.3476,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "periwinkle__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "periwinkle__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "periwinkle__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "periwinkle__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "periwinkle__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "periwinkle__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Red",
+   "slug": "red",
+   "hex": "#c62b4b",
+   "code": "07",
+   "pid": null,
+   "alpha": "84",
+   "order": 55,
+   "featured": 0,
+   "avg": "#c9383f",
+   "h": 357.1,
+   "l": 0.5039,
+   "s": 0.5731,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "red__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "red__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "red__model_back.jpg",
+     "label": "On model - back"
+    }
+   ]
+  },
+  {
+   "name": "Rose Quartz",
+   "slug": "rose-quartz",
+   "hex": "#e2acd7",
+   "code": "44",
+   "pid": "137732",
+   "alpha": null,
+   "order": 56,
+   "featured": 0,
+   "avg": "#e8a4d3",
+   "h": 318.5,
+   "l": 0.7765,
+   "s": 0.5965,
+   "family": "Pink",
+   "model": false,
+   "views": [
+    {
+     "k": "flat_front",
+     "f": "rose-quartz__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_back",
+     "f": "rose-quartz__flat_back.jpg",
+     "label": "Garment - back"
+    },
+    {
+     "k": "flat_detail",
+     "f": "rose-quartz__flat_detail.jpg",
+     "label": "Garment - detail"
+    }
+   ]
+  },
+  {
+   "name": "Royal Caribe",
+   "slug": "royal-caribe",
+   "hex": "#146ea0",
+   "code": "97",
+   "pid": "32895",
+   "alpha": "56",
+   "order": 57,
+   "featured": 0,
+   "avg": "#156ea3",
+   "h": 202.4,
+   "l": 0.3608,
+   "s": 0.7717,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "royal-caribe__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "royal-caribe__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "royal-caribe__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "royal-caribe__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "royal-caribe__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "royal-caribe__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Sage",
+   "slug": "sage",
+   "hex": "#55574c",
+   "code": "38",
+   "pid": "31075",
+   "alpha": "08",
+   "order": 58,
+   "featured": 0,
+   "avg": "#55574a",
+   "h": 69.2,
+   "l": 0.3157,
+   "s": 0.0807,
+   "family": "Green",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "sage__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "sage__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "sage__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "sage__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "sage__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "sage__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Sapphire",
+   "slug": "sapphire",
+   "hex": "#7ac7db",
+   "code": "89",
+   "pid": "47232",
+   "alpha": "66",
+   "order": 60,
+   "featured": 0,
+   "avg": "#7ac3d9",
+   "h": 193.9,
+   "l": 0.6647,
+   "s": 0.5556,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "sapphire__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "sapphire__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "sapphire__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "sapphire__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "sapphire__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "sapphire__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Terracotta",
+   "slug": "terracotta",
+   "hex": "#f5998a",
+   "code": "65",
+   "pid": "54317",
+   "alpha": "b6",
+   "order": 62,
+   "featured": 0,
+   "avg": "#fb9e8d",
+   "h": 9.3,
+   "l": 0.7686,
+   "s": 0.9322,
+   "family": "Orange",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "terracotta__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "terracotta__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "terracotta__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "terracotta__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "terracotta__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "terracotta__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "True Navy",
+   "slug": "true-navy",
+   "hex": "#232e42",
+   "code": "61",
+   "pid": "47235",
+   "alpha": "47",
+   "order": 63,
+   "featured": 0,
+   "avg": "#222d41",
+   "h": 218.7,
+   "l": 0.1941,
+   "s": 0.3131,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "true-navy__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "true-navy__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "true-navy__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "true-navy__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "true-navy__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "true-navy__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Violet",
+   "slug": "violet",
+   "hex": "#9385c1",
+   "code": "57",
+   "pid": "47236",
+   "alpha": "62",
+   "order": 64,
+   "featured": 0,
+   "avg": "#9385c2",
+   "h": 253.8,
+   "l": 0.6412,
+   "s": 0.3333,
+   "family": "Purple",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "violet__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "violet__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "violet__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "violet__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "violet__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "violet__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Washed Denim",
+   "slug": "washed-denim",
+   "hex": "#a8bbdb",
+   "code": "26",
+   "pid": "47237",
+   "alpha": "48",
+   "order": 65,
+   "featured": 0,
+   "avg": "#a6b9d8",
+   "h": 217.2,
+   "l": 0.749,
+   "s": 0.3906,
+   "family": "Blue",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "washed-denim__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "washed-denim__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "washed-denim__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "washed-denim__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "washed-denim__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "washed-denim__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Watermelon",
+   "slug": "watermelon",
+   "hex": "#d63f50",
+   "code": "46",
+   "pid": "32899",
+   "alpha": "31",
+   "order": 66,
+   "featured": 0,
+   "avg": "#d74253",
+   "h": 353.2,
+   "l": 0.551,
+   "s": 0.6507,
+   "family": "Red",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "watermelon__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "watermelon__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "watermelon__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "watermelon__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "watermelon__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "watermelon__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Wine",
+   "slug": "wine",
+   "hex": "#876e81",
+   "code": "87",
+   "pid": "47239",
+   "alpha": "73",
+   "order": 67,
+   "featured": 0,
+   "avg": "#887185",
+   "h": 307.8,
+   "l": 0.4882,
+   "s": 0.0924,
+   "family": "Purple",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "wine__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "wine__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "wine__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "wine__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "wine__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "wine__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  },
+  {
+   "name": "Yam",
+   "slug": "yam",
+   "hex": "#b9713f",
+   "code": "32",
+   "pid": "31077",
+   "alpha": "70",
+   "order": 68,
+   "featured": 0,
+   "avg": "#b86d3d",
+   "h": 23.4,
+   "l": 0.4804,
+   "s": 0.502,
+   "family": "Brown",
+   "model": true,
+   "views": [
+    {
+     "k": "model_front",
+     "f": "yam__model_front.jpg",
+     "label": "On model - front"
+    },
+    {
+     "k": "model_side",
+     "f": "yam__model_side.jpg",
+     "label": "On model - side"
+    },
+    {
+     "k": "model_back",
+     "f": "yam__model_back.jpg",
+     "label": "On model - back"
+    },
+    {
+     "k": "flat_front",
+     "f": "yam__flat_front.jpg",
+     "label": "Garment - front"
+    },
+    {
+     "k": "flat_angle",
+     "f": "yam__flat_angle.jpg",
+     "label": "Garment - angle"
+    },
+    {
+     "k": "flat_back",
+     "f": "yam__flat_back.jpg",
+     "label": "Garment - back"
+    }
+   ]
+  }
+ ]
+}
