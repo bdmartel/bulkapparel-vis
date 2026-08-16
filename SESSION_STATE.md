@@ -1,23 +1,22 @@
 # Session State
-**Updated:** 2026-08-09 21:20
+**Updated:** 2026-08-16 14:50
 **Chat:** bulkapparel-color-browser
 
 ## Currently Working On
-Done. The color browser is built, tested and committed. `index.html` is open in Chrome.
+Done. Built and now deployed: https://bulkapparel.benmartel.com
 
 ## Done This Session
-- Scraped all 68 Comfort Colors 1717 colors from BulkApparel (Cloudflare challenge cleared with Playwright)
-- Downloaded 375 photos: 58 colors have on-model front/side/back, all 68 have flat garment front/angle/back
-- Found and fixed a mapping trap: the swatch `data-valcode` is NOT the on-model photo code, so the first pass attached the wrong shirt to every name. Now derived by clicking each swatch and reading what the page swaps in.
-- Built the single-file app: grid with names, color-family filters, hue/lightness/A-Z sorting, size slider, star shortlist, lightbox with zoom/pan/slideshow/keyboard nav, print contact sheet
-- Verified every color name against its photo via labeled contact sheets; all 68 correct
-- git init + first commit; added to PROJECTS.md
+- Scraped all 68 Comfort Colors 1717 colors from BulkApparel (375 photos); fixed the two-numbering-systems trap by clicking every swatch in a real browser
+- Built the single-file app: named grid, family filters, sorting, size slider, star shortlist, lightbox with zoom/slideshow, print contact sheet
+- Deployed to bulkapparel.benmartel.com: GitHub repo (public, bdmartel/bulkapparel-vis), nginx vhost + certbot SSL on droplet 178.128.155.186, GitHub Actions auto-deploy on push (dedicated keypair)
+- Verified live in a headless browser: 68 cards, all images load, lightbox works, zero errors
+- Added row to claude.benmartel.com directory, verified behind gate, committed
 
 ## Next Steps
-- Nothing required. Possible additions if asked: publish a phone-friendly hosted copy, or extend the pipeline to another style number.
+- Nothing pending. Push to main auto-deploys.
 
 ## Key Decisions / Context
-- `index.html` is generated from `app.template.html` via `scrape/build_app.py` -- never hand-edit it
-- Swatch chips, hue sort and family buckets come from the photographs, not the site's published hex (which is wrong for Peachy, Island Green, Neon Cantaloupe, Neon Violet, Neon Lemon)
-- 10 colors have no on-model photo anywhere on BulkApparel; they show the garment shot tagged "NO MODEL PHOTO"
-- Image CDN 429s above ~5 req/s, so the fetcher runs a token-bucket limiter with backoff
+- `index.html` is generated from `app.template.html` via `scrape/build_app.py` -- never hand-edit
+- Repo made public to match the invoice deploy pattern (droplet pulls without auth)
+- DNS was zero-work: wildcard `*.benmartel.com` already points at the droplet
+- Site data quirks documented in CLAUDE.md: swatch codes ≠ photo codes, site hex wrong for several dyes

@@ -4,6 +4,19 @@ A single-page color browser for the Comfort Colors 1717 tee on BulkApparel. Buil
 because the store only shows one color at a time, so comparing 68 colors means 68
 clicks. See `README.md` for the feature list and the scraper pipeline.
 
+**Live at https://bulkapparel.benmartel.com** — served by nginx from the
+DigitalOcean droplet `178.128.155.186` (same box as benmartel.com + invoice),
+auto-deployed via GitHub Actions.
+
+## Deploy — push to `main` → live
+
+`.github/workflows/deploy.yml` SSHes as `deploy@178.128.155.186` and runs
+`git pull origin main` in `/var/www/bulkapparel`. Mirrors the invoice pipeline.
+Repo: `github.com/bdmartel/bulkapparel-vis` (public — required for the droplet's
+unauthenticated `git pull`). DNS is the wildcard `*.benmartel.com` A record; SSL
+via certbot (auto-renews). The GHA keypair is dedicated to this repo
+(`gha-bulkapparel-deploy` in `/home/deploy/.ssh/authorized_keys`).
+
 ## Working rules
 
 - `index.html` is **generated**. Edit `app.template.html`, then run

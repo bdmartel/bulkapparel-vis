@@ -4,7 +4,8 @@ BulkApparel only shows one color at a time. This is all 68 of them at once, with
 color name next to each photo, plus a grid / zoom / slideshow so you can actually
 compare and choose.
 
-**Open `index.html`** in a browser (double-click works — no server needed).
+**Live at [bulkapparel.benmartel.com](https://bulkapparel.benmartel.com)** — or open
+`index.html` locally (double-click works, no server needed).
 
 ## What's in it
 
