@@ -1,0 +1,24 @@
+name: Deploy to DO
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/key
+          chmod 600 ~/.ssh/key
+          ssh-keyscan -t ed25519 $DEPLOY_HOST >> ~/.ssh/known_hosts 2>/dev/null
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+
+      - name: Deploy
+        run: |
+          ssh -i ~/.ssh/key deploy@${{ secrets.DEPLOY_HOST }} 'cd /var/www/bulkapparel && git pull origin main'
