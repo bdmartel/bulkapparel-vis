@@ -1,3 +1,4 @@
 .DS_Store
 scrape/cfstate.json
 scrape/__pycache__/
+scrape/bf_job.log
