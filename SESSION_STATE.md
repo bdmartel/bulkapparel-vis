@@ -1,22 +1,26 @@
 # Session State
-**Updated:** 2026-08-16 14:50
-**Chat:** bulkapparel-color-browser
+**Updated:** 2026-11-18 14:15
+**Chat:** bulkapparel-deals-check
 
 ## Currently Working On
-Done. Built and now deployed: https://bulkapparel.benmartel.com
+Done. Checked BulkApparel's discounts and shipping for Ben and wrote the findings to DEALS-2026-11.md (committed locally, not pushed).
 
 ## Done This Session
-- Scraped all 68 Comfort Colors 1717 colors from BulkApparel (375 photos); fixed the two-numbering-systems trap by clicking every swatch in a real browser
-- Built the single-file app: named grid, family filters, sorting, size slider, star shortlist, lightbox with zoom/slideshow, print contact sheet
-- Deployed to bulkapparel.benmartel.com: GitHub repo (public, bdmartel/bulkapparel-vis), nginx vhost + certbot SSL on droplet 178.128.155.186, GitHub Actions auto-deploy on push (dedicated keypair)
-- Verified live in a headless browser: 68 cards, all images load, lightbox works, zero errors
-- Added row to claude.benmartel.com directory, verified behind gate, committed
+- Confirmed in a test cart that the 10% bulk discount ($1,000 and up) and free shipping ($79 and up, counted before discounts) apply together
+- Found code AUTUMN7 (7% off, worked Nov 18) and that codes cannot be combined with the bulk discount
+- Checked rewards, sign-up offer, sale page, Black Friday page, and searched for cash-back portals (none found)
+- Emptied the test cart, closed the tab, texted Ben the answer (reminder 27b18c, 2:15 PM)
 
 ## Next Steps
-- Nothing pending. Push to main auto-deploys.
+### For Ben
+- Nothing.
+### Waiting on someone else
+- Nothing.
+### For Claude
+- Nothing.
 
 ## Key Decisions / Context
-- `index.html` is generated from `app.template.html` via `scrape/build_app.py` -- never hand-edit
-- Repo made public to match the invoice deploy pattern (droplet pulls without auth)
-- DNS was zero-work: wildcard `*.benmartel.com` already points at the droplet
-- Site data quirks documented in CLAUDE.md: swatch codes ≠ photo codes, site hex wrong for several dyes
+- BulkApparel was not signed in in Chrome; everything was checked as a guest. No account made, no order placed.
+- DEALS-2026-11.md is committed but not pushed: pushing to main deploys the public site and the repo is public.
+- The live site is https://bulkapparel.benmartel.com (push to main auto-deploys). `index.html` is generated, never hand-edit.
+- The Chrome extension tools were not available this session; the site was driven through the same Apple Events route the gmail-send skill uses.
