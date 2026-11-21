@@ -11,7 +11,7 @@ Ben asked on Nov 18, 2026 for the BulkApparel deal check to be run again on Blac
    - the Comfort Colors 1717 page: are today's prices lower than the baseline?
 3. Cart test, same as Nov 18: add 160 white M 1717 shirts, read the order summary, then try any Black Friday code and AUTUMN7 at about $80, $256 and $1,078. Find out whether a Black Friday offer stacks with the bulk discount and with free shipping, and whether the $79 line or the tiers changed. Go to the checkout page but stop before any address or payment.
 4. Never place an order, make an account, sign up for anything in his name or enter payment details. Empty the cart and close the tab when done.
-5. Write `DEALS-2026-11-27.md` (Black Friday) or `DEALS-2026-11-30.md` (Cyber Monday) here in the same shape as the baseline, with a short "What changed" list at the top (since Nov 18, and on Monday since Friday too) and a source for each answer. Commit it. Do not push (pushing deploys the public site).
+5. Write `DEALS-2026-11-27.md` (Black Friday) or `DEALS-2026-11-30.md` (Cyber Monday) here in the same shape as the baseline, with a short "What changed" list at the top (since Nov 18, and on Monday since Friday too) and a source for each answer. Commit it. Push is fine (Ben had the folder pushed on Nov 21), but the repo and site are public, so keep private details out.
 6. Text Ben the answer in two or three lines with `remind --text` set two minutes out (a text to himself, no approval step, no em dashes). Lead with the verdict: is today a better day to order than Nov 18 (and on Monday, than Black Friday), and what to use (code or bulk discount) by order size.
 7. Update `SESSION_STATE.md` and the chat log.
 

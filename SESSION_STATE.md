@@ -1,5 +1,5 @@
 # Session State
-**Updated:** 2026-11-18 14:40
+**Updated:** 2026-11-21 10:00
 **Chat:** bulkapparel-deals-check
 
 ## Currently Working On
@@ -22,4 +22,4 @@ Waiting for Black Friday and Cyber Monday. One-time jobs on the Mac open a sessi
 - The scheduled jobs are `com.benmartel.bulkapparel-blackfriday` and `-cybermonday` in LaunchAgents; each runs `scrape/bf_job.py`, which opens a Remote Control session here with the task, and texts Ben if the session cannot start. Needs the Mac on, cmux and Chrome running.
 - BulkApparel is not signed in in Chrome; checks run as a guest. Never order, sign up or enter payment.
 - `scrape/site.py` drives Chrome through Apple Events (the Chrome extension tools were missing on Nov 18).
-- Commits here are local only: pushing to main deploys the public site at bulkapparel.benmartel.com and the repo is public.
+- Pushed to GitHub on Nov 21, 2026 at Ben's tidy-up request. Pushing to main deploys the public site at bulkapparel.benmartel.com and the repo is public, so keep private details out of commits.
