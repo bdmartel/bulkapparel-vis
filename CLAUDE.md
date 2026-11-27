@@ -39,6 +39,22 @@ via certbot (auto-renews). The GHA keypair is dedicated to this repo
 - **The site's swatch hex is wrong for several dyes.** Sort, filter and chip colors
   come from the photographs, not from `data-clrcode`.
 
+## Tags (Nov 27, 2026)
+
+Ben asked: tag the colors he has bought, and let him tag any color one at a time or in bulk and filter by tag.
+- **Select** (next to Filters) turns on picking: tap cards (shift-click for a range), All shown / None, type a
+  tag, + Add tag or − Remove tag. One color: open it and use the tag row under its name (+ add tag, × removes).
+- The Tags chips in the filters: one tap shows only colors with that tag, a second tap shows only colors
+  without it ("not bought"), a third turns it off. Several chips: any of the shown tags.
+- Tags are stored on the droplet in `/var/www/bulkapparel-data/tags.json` through `tags.php`, which only
+  answers someone signed in with the shared benmartel.com sign-in (nginx sends just that one file to PHP).
+  Anyone else, and `file://`, keeps tags in that browser only. The data is outside the repo on purpose:
+  the repo and site are public, and what Ben bought is his business.
+- `bought.json` next to it holds each bought color's order dates and counts (shown in the tag row). It was
+  read from his BulkApparel order history on Nov 27, 2026 (three orders, Aug 1 to Oct 10, 17 colors of 1717).
+  After a new order: read the order pages in his signed-in Chrome (bulkapparel.com/dashboard?page=orders),
+  add the lines to bought.json and the "bought" tag to tags.json for each new color.
+
 ## Re-scraping
 
 ```

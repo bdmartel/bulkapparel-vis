@@ -29,6 +29,7 @@ in the grid.
 - **Family chips** — White, Neutral, Grey, Black, Brown, Red, Orange, Yellow, Green, Teal, Blue, Purple, Pink
 - **Size slider** — from 12-across contact sheet to 3-across detail
 - **★** on any card builds a shortlist; **★ only** filters to it; **Copy ★ list** puts the names on the clipboard
+- **Select** tags many colors at once; open a color to tag just that one; the **Tags** chips filter by a tag, or by not having it
 - **Cmd-P** prints a clean 5-across contact sheet
 
 **Slideshow** (click any card)
