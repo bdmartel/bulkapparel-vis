@@ -1,11 +1,12 @@
 # Session State
-**Updated:** 2026-11-27 21:12
+**Updated:** 2026-11-27 21:25
 **Chat:** bulkapparel-deals-check
 
 ## Currently Working On
 Black Friday check is done and texted to Ben. Waiting for Cyber Monday: a one-time job on the Mac opens a session here on Mon Nov 30, 2026 at 9:07 am to rerun the BulkApparel deal check and text Ben the result.
 
 ## Done This Session
+- Claude's replace tags brought up to date with the new order (Nov 27 evening): shirts whose replacement is now ordered carry "claude: replacement ordered"; the ones still to buy keep "claude: replace".
 - New order added to the bought list (Nov 27 evening): Ben placed a fourth BulkApparel order that day; its lines were read from his order history and added to the bought list and bought tags on the color page (kept on the server, not in this public repo).
 - Phone fixes on the color page (Nov 27): Tags row moved out of Filters; the single-color viewer now clears the phone's status bar, has a round close button on the photo and closes on a swipe down (its buttons had been hidden under the status bar).
 - Add to cart button on the color page (Nov 27): one in each color's tag row with a size picker, one in the Select bar. In Safari (his phone) it fills the BulkApparel cart and lands on the cart page; in Chrome on a computer the store drops such adds, so there it opens the store page on that color and size. A color tagged qty 2 adds two. Details in CLAUDE.md.
