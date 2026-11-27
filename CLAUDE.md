@@ -69,6 +69,11 @@ in the Select bar (adds one of each picked color). A color tagged `qty 2` adds t
 - It posts a plain form to the store's `addon/bulkaddtocart.php` in a second tab (field name
   `Color*Name[SIZE][item code][1822][]`, value = quantity; a GET does nothing), then sends that tab to the cart page.
   It only fills the cart in whatever browser he is using; nothing is ordered.
+- **Works in Safari and Firefox, not in Chrome on a computer** (tested Nov 27, 2026). Chrome holds back the store's
+  cart cookie (`csid`, no SameSite, so treated as Lax) on a form posted from another site: the store answers
+  success but the item lands in a cart the cart page never shows. Safari on the Mac put two Yam in the cart.
+  So in Chrome the button reads "Open in store" and opens the store page with `?color=<swatch code>&size=M`;
+  the Select bar's button explains. `?post=1` on the page forces the form in Chrome for testing.
 - Item codes and prices live in `scrape/skus.json`, read on Nov 27, 2026 by clicking each color on the store's
   1717 page through `scrape/site.py` and reading the quantity inputs. `build_app.py` merges them into the page.
   Banana is not on the store page, so it has no button. Reread the codes if the store changes its lineup.

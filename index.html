@@ -547,9 +547,19 @@ function sizeSelect(sel){
 }
 // a tag like "qty 2" on a color sets how many of it go in the cart; otherwise one
 function cartQty(slug){ for(const t of tagsOf(slug)){ const m=/^qty (\d{1,3})$/.exec(t); if(m) return Math.max(1,+m[1]); } return 1; }
+// Chrome (not on iPhone) keeps the store's cart cookie back from a form posted by another site, so the add
+// lands in a cart nobody sees (tested Nov 27, 2026). Safari and Firefox send it. In Chrome the button opens
+// the store's page on that color and size instead. ?post=1 forces the form, for testing.
+const NOPOST = (!!navigator.userAgentData || (/Chrome\//.test(navigator.userAgent) && !/CriOS|EdgiOS/.test(navigator.userAgent))) && !/[?&]post=1/.test(location.search);
+const storeLink = c => META.source+"?color="+encodeURIComponent(c.code)+"&size="+CSIZE+c.href.slice(META.source.length);
 function addToCart(colors){
   const ok=colors.filter(c=>c.sk && c.sk[CSIZE]), skip=colors.length-ok.length;
   if(!ok.length) return "Not sold in "+CSIZE+" on BulkApparel.";
+  if(NOPOST){
+    if(ok.length>1) return "Chrome will not let this page fill the store cart. Use Safari (your phone works), or open one color at a time.";
+    window.open(storeLink(ok[0]),"bulkcart");
+    return "Opened the store on "+ok[0].name+" "+CSIZE+": type how many there. (Chrome blocks filling the cart from here; Safari does it in one tap.)";
+  }
   const w=window.open("","bulkcart");
   const f=el("form",{method:"post",action:CART_POST,target:"bulkcart"}); f.style.display="none";
   let n=0, total=0;
@@ -558,8 +568,9 @@ function addToCart(colors){
   document.body.append(f); f.submit(); f.remove();
   if(w){ // the tab turns unreadable the moment the store's answer lands: that is the cue to move on to the cart
     let tries=0; const iv=setInterval(()=>{ let landed=false;
-      try{ landed = w.closed; void w.location.href; }catch(e){ landed=true; }
-      if(landed || ++tries>60){ clearInterval(iv); if(!w.closed) setTimeout(()=>{ try{ w.location.href=CART_PAGE; }catch(e){} }, landed?400:0); }
+      try{ void w.location.href; }catch(e){ landed=true; }
+      if(landed || ++tries>=24){ clearInterval(iv);
+        setTimeout(()=>{ try{ w.location.href=CART_PAGE; }catch(e){ try{ window.open(CART_PAGE,"bulkcart"); }catch(e2){} } }, 500); }
     },250); }
   return "Added "+n+" "+(n===1?"shirt":"shirts")+" ("+CSIZE+", about $"+total.toFixed(2)+") to your BulkApparel cart"+(skip?"; "+skip+" not sold in "+CSIZE:"")+".";
 }
@@ -691,8 +702,9 @@ function showTags(){
   const bn=boughtNote(c.slug); if(bn) box.append(el("span",{className:"bnote",textContent:bn}));
   if(c.sk){
     const cb=el("span",{className:"cartbox"}), ss=el("select",{className:"csize",title:"Shirt size for the cart"}); sizeSelect(ss);
-    const q=cartQty(c.slug), go=el("button",{className:"lbbtn cart",textContent:"Add to cart"+(q>1?" ×"+q:""),title:"Put this color in your BulkApparel cart"});
-    go.onclick=()=>{ const msg=addToCart([c]); go.textContent=msg.startsWith("Added")?"Added ✓":msg; setTimeout(()=>{ go.textContent="Add to cart"+(q>1?" ×"+q:""); },2600); };
+    const q=cartQty(c.slug), lab=NOPOST?"Open in store ↗":"Add to cart"+(q>1?" ×"+q:"");
+    const go=el("button",{className:"lbbtn cart",textContent:lab,title:NOPOST?"Chrome blocks filling the store cart from this page, so this opens the store on this color and size. Safari adds it in one tap.":"Put this color in your BulkApparel cart"});
+    go.onclick=()=>{ const msg=addToCart([c]); go.textContent=msg.startsWith("Added")?"Added ✓":msg.startsWith("Opened")?"Opened ↗":msg; setTimeout(()=>{ go.textContent=lab; },2600); };
     cb.append(ss,go); box.append(cb);
   }
 }
