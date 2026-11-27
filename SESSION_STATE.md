@@ -1,11 +1,12 @@
 # Session State
-**Updated:** 2026-11-27 15:10
+**Updated:** 2026-11-27 16:25
 **Chat:** bulkapparel-deals-check
 
 ## Currently Working On
 Black Friday check is done and texted to Ben. Waiting for Cyber Monday: a one-time job on the Mac opens a session here on Mon Nov 30, 2026 at 9:07 am to rerun the BulkApparel deal check and text Ben the result.
 
 ## Done This Session
+- Phone fixes on the color page (Nov 27): Tags row moved out of Filters; the single-color viewer now clears the phone's status bar, has a round close button on the photo and closes on a swipe down (its buttons had been hidden under the status bar).
 - Add to cart button on the color page (Nov 27): one in each color's tag row with a size picker, one in the Select bar. In Safari (his phone) it fills the BulkApparel cart and lands on the cart page; in Chrome on a computer the store drops such adds, so there it opens the store page on that color and size. A color tagged qty 2 adds two. Details in CLAUDE.md.
 - Claude's own condition tags from Ben's floor photo (Nov 27): replace, worn but keeping, good, and check name on the close calls, each starting with "claude:" and drawn in blue so they stand apart from his. Ben's own tags were left alone. Which colors got which is on the page only (signed in), not in this public repo.
 - Naming real shirts from photos (Nov 27): the neck labels carry no color name, so a shirt is named by narrowing to the colors tagged bought and comparing against the model photos. Edit tags (rename a tag everywhere) is live on the color page. Lesson in CLAUDE.md.

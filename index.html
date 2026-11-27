@@ -20,7 +20,7 @@ button{background:none;border:0;cursor:pointer}
 a{color:inherit}
 
 /* ---------- header ---------- */
-header{position:sticky;top:0;z-index:40;background:var(--panel);border-bottom:1px solid var(--line)}
+header{padding-top:env(safe-area-inset-top);position:sticky;top:0;z-index:40;background:var(--panel);border-bottom:1px solid var(--line)}
 .head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding:10px 14px 8px}
 .head h1{font-size:15px;font-weight:600;letter-spacing:-.01em}
 .head h1 b{color:var(--hi);font-weight:600}
@@ -112,7 +112,8 @@ body.selmode .selbox{display:block}
 .sync{font:11px/1.4 var(--mono)}
 
 /* ---------- lightbox ---------- */
-.lb{position:fixed;inset:0;z-index:100;background:#08090b;display:none;flex-direction:column}
+.lb{position:fixed;inset:0;z-index:100;background:#08090b;display:none;flex-direction:column;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+.xclose{position:absolute;top:10px;right:10px;z-index:3;width:40px;height:40px;border-radius:50%;background:rgba(17,17,17,.82);color:#fff;font-size:20px;line-height:40px;text-align:center;box-shadow:0 1px 6px rgba(0,0,0,.3)}
 .lb.open{display:flex}
 .lbhead{display:flex;align-items:center;gap:10px;padding:9px 12px;border-bottom:1px solid var(--line);flex:none}
 .lbhead .sw{width:20px;height:20px;border-radius:4px}
@@ -266,6 +267,7 @@ kbd{font:10px/1 var(--mono);border:1px solid var(--line2);border-bottom-width:2p
   </div>
   <div class="lbtags" id="lbTags"></div>
   <div class="stage" id="stage">
+    <button class="xclose" id="xClose" aria-label="Close this color">✕</button>
     <button class="nav prev" id="prev" aria-label="Previous color">‹</button>
     <img id="big" alt="">
     <button class="nav next" id="next" aria-label="Next color">›</button>
@@ -802,6 +804,7 @@ stage.addEventListener("touchend",e=>{
   if(!sw||!e.changedTouches.length) return;
   const dx=e.changedTouches[0].clientX-sw.x, dy=e.changedTouches[0].clientY-sw.y;
   if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)*1.5) step(dx<0?1:-1);
+  else if(dy>110 && dy>Math.abs(dx)*2) close();   // a swipe down closes the viewer
   sw=null;
 },{passive:true});
 
@@ -811,7 +814,7 @@ function stopPlay(){ if(LB.play){clearInterval(LB.play);LB.play=null;} $("#lbPla
 
 $("#prev").onclick=()=>step(-1);
 $("#next").onclick=()=>step(1);
-$("#lbClose").onclick=close;
+$("#lbClose").onclick=close; $("#xClose").onclick=e=>{ e.stopPropagation(); close(); };
 $("#lbStar").onclick=()=>toggleStar(cur().slug);
 $("#lbPlay").onclick=()=>LB.play?stopPlay():startPlay();
 $("#lbZoom").onclick=()=>{ const r=stage.getBoundingClientRect(); zoomAt(r.left+r.width/2,r.top+r.height/2, Z.s>1?1:2.6); };
