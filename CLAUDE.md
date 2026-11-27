@@ -46,6 +46,8 @@ Ben asked: tag the colors he has bought, and let him tag any color one at a time
   tag, + Add tag or − Remove tag. One color: open it and use the tag row under its name (+ add tag, × removes).
 - The Tags chips in the filters: one tap shows only colors with that tag, a second tap shows only colors
   without it ("not bought"), a third turns it off. Several chips: any of the shown tags.
+- **Edit tags** (last chip in the Tags row, added Nov 27): tap it, then tap a tag to rename it. The new name goes on every
+  color that has it; renaming to a name that already exists merges the two. The bought tag keeps its name (order dates hang on it).
 - Tags are stored on the droplet in `/var/www/bulkapparel-data/tags.json` through `tags.php`, which only
   answers someone signed in with the shared benmartel.com sign-in (nginx sends just that one file to PHP).
   Anyone else, and `file://`, keeps tags in that browser only. The data is outside the repo on purpose:

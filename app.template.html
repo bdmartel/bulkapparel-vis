@@ -80,6 +80,9 @@ main{padding:14px}
 .tagf button[data-st="1"]{color:#111;background:var(--fg);border-color:var(--fg)}
 .tagf button[data-st="-1"]{color:#ff8a80;border-color:#ff8a80;text-decoration:line-through}
 .tagf button i{font-style:normal;opacity:.6;margin-left:4px}
+.tagf button.tedit{border-style:dashed}
+.tagf button.tedit[aria-pressed="true"]{color:#111;background:var(--sel);border-color:var(--sel);border-style:solid}
+.tagf.editing button:not(.tedit){border-color:var(--sel);color:var(--fg)}
 #selBtn[aria-pressed="true"]{color:#111;background:var(--sel);border-color:var(--sel)}
 .bulk{display:none;align-items:center;gap:8px;flex-wrap:wrap;padding:8px 14px;border-top:1px solid var(--line);background:#11151c}
 .bulk.show{display:flex}
@@ -345,6 +348,32 @@ function setTag(slugs, tag, on){
   if(changed.length) saveTags(changed);
   return changed;
 }
+// Rename a tag everywhere: every color that has it gets the new name (merging if the new name already exists).
+function renameTag(from, to){
+  to = normTag(to); if(!to || to===from) return 0;
+  const changed = [];
+  for(const c of COLORS){
+    const cur = tagsOf(c.slug); if(!cur.includes(from)) continue;
+    S.tags[c.slug] = [...new Set(cur.map(t=>t===from?to:t))]; changed.push(c.slug);
+  }
+  if(S.tf[from]){ if(!S.tf[to]) S.tf[to]=S.tf[from]; delete S.tf[from]; persist(); }
+  if(changed.length) saveTags(changed);
+  return changed.length;
+}
+function editTag(t){
+  if(t==="bought"){ flash("The bought tag carries your order dates, so it keeps its name."); return; }
+  const v = prompt('Rename the tag "'+t+'" on every color that has it:', t);
+  if(v===null) return;
+  const to = normTag(v);
+  if(!to){ flash("A tag needs a name. To drop it, use Select and \u2212 Remove tag."); return; }
+  if(to===t) return;
+  if(to==="bought"){ flash("Bought is kept for your orders. Pick another name."); return; }
+  const n = renameTag(t, to);
+  TAGEDIT = false;
+  afterTagChange();
+  flash("Renamed "+t+" to "+to+" on "+n+" "+(n===1?"color":"colors"));
+}
+let TAGEDIT = false;
 function afterTagChange(){ buildTagFilter(); if(LB.open){ LB.dirty=true; showTags(); } else render(); }
 let flashT=null;
 function flash(msg){ const m=$("#bulkMsg"); m.textContent=msg; clearTimeout(flashT); flashT=setTimeout(()=>m.textContent="",2600);
@@ -360,10 +389,16 @@ function buildTagFilter(){
     const b=el("button",{title:"Click: only colors with this tag. Again: only colors without it. Again: off."});
     b.dataset.st = S.tf[t]||0;
     b.append(document.createTextNode((S.tf[t]===-1?"not ":"")+t), el("i",{textContent:n}));
-    b.onclick=()=>{ const st=S.tf[t]||0, nx = st===0?1:st===1?-1:0;
+    if(TAGEDIT){ b.title="Rename this tag on every color that has it"; b.prepend(document.createTextNode("\u270e ")); b.onclick=()=>editTag(t); }
+    else b.onclick=()=>{ const st=S.tf[t]||0, nx = st===0?1:st===1?-1:0;
       if(nx) S.tf[t]=nx; else delete S.tf[t]; persist(); buildTagFilter(); render(); };
     box.append(b);
   }
+  box.classList.toggle("editing", TAGEDIT);
+  const e=el("button",{className:"tedit",textContent:TAGEDIT?"Done":"\u270e Edit tags",title:"Rename a tag: the new name goes on every color that has it"});
+  e.setAttribute("aria-pressed", TAGEDIT);
+  e.onclick=()=>{ TAGEDIT=!TAGEDIT; buildTagFilter(); if(TAGEDIT) flash("Tap a tag to rename it everywhere."); };
+  box.append(e);
 }
 const boughtN = slug => (BOUGHT[slug]||[]).reduce((a,x)=>a+x.n,0);
 const chipText = (slug,t) => t==="bought" && boughtN(slug)>1 ? "bought ×"+boughtN(slug) : t;
