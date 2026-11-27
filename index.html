@@ -147,6 +147,7 @@ kbd{font:10px/1 var(--mono);border:1px solid var(--line2);border-bottom-width:2p
   label.fld:has(#q){flex:1}
   #toggle{display:block}
   #more{display:none}
+  .tagf{flex-basis:100%;order:5}
   #more.show{display:contents}
   .grid{--gap:10px;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(var(--card),calc(50% - 5px)),1fr))}
   main{padding:10px}
@@ -202,6 +203,8 @@ kbd{font:10px/1 var(--mono);border:1px solid var(--line2);border-bottom-width:2p
     <button class="lbbtn" id="selBtn" aria-pressed="false" title="Pick several colors to tag at once">Select</button>
     <button class="lbbtn" id="toggle" aria-expanded="false">Filters ▾</button>
 
+    <div class="tagf" id="tagf"></div>
+
     <div id="more">
     <div class="grp" role="group" aria-label="Sort">
       <button data-sort="site" aria-pressed="false">Site order</button>
@@ -218,8 +221,6 @@ kbd{font:10px/1 var(--mono);border:1px solid var(--line2);border-bottom-width:2p
     <label class="fld"><span>Size</span><input id="size" type="range" min="120" max="460" step="10" value="230"></label>
 
     <div class="fams" id="fams"></div>
-
-    <div class="tagf" id="tagf"></div>
 
     <div class="spacer"></div>
     <button class="lbbtn" id="copy">Copy ★ list</button>
