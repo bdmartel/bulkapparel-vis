@@ -365,6 +365,8 @@ function buildTagFilter(){
     box.append(b);
   }
 }
+const boughtN = slug => (BOUGHT[slug]||[]).reduce((a,x)=>a+x.n,0);
+const chipText = (slug,t) => t==="bought" && boughtN(slug)>1 ? "bought ×"+boughtN(slug) : t;
 function boughtNote(slug){
   const b=BOUGHT[slug]; if(!b||!b.length) return "";
   const n=b.reduce((a,x)=>a+x.n,0);
@@ -442,7 +444,8 @@ function render(){
     const star = el("button",{className:"star",textContent:"★",title:"Save to shortlist (F)"});
     star.dataset.star = c.slug;
     const ct = el("div",{className:"ctags"});
-    for(const t of tagsOf(c.slug)) ct.append(el("span",{className:"tchip"+(t==="bought"?" bought":""),textContent:t}));
+    for(const t of tagsOf(c.slug)) ct.append(el("span",{className:"tchip"+(t==="bought"?" bought":""),textContent:chipText(c.slug,t),
+      title: t==="bought" ? boughtNote(c.slug) : ""}));
     card.append(el("span",{className:"selbox"}),ph,cap,ct,star);
     frag.append(card);
   });
@@ -605,7 +608,7 @@ function showTags(){
     const chip=el("span",{className:"tchip"+(t==="bought"?" bought":"")});
     const x=el("button",{textContent:"×",title:"Remove "+t});
     x.onclick=()=>{ setTag([c.slug],t,false); afterTagChange(); };
-    chip.append(document.createTextNode(t),x); box.append(chip);
+    chip.append(document.createTextNode(chipText(c.slug,t)),x); box.append(chip);
   }
   const inp=el("input",{placeholder:"+ add tag",autocomplete:"off"}); inp.setAttribute("list","tagList"); inp.setAttribute("enterkeyhint","done");
   inp.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); const v=inp.value; if(normTag(v)){ setTag([c.slug],v,true); afterTagChange(); $("#lbTags input").focus(); } } });
