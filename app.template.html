@@ -89,6 +89,9 @@ main{padding:14px}
 .bulk .n{font:12px/1 var(--mono);color:var(--dim)} .bulk .n b{color:var(--fg)}
 .bulk input{background:var(--panel2);border:1px solid var(--line2);border-radius:var(--radius);padding:5px 8px;font-size:12px;width:150px;outline:0}
 .bulk input:focus{border-color:var(--sel)}
+.csize{background:var(--panel2);color:var(--fg);border:1px solid var(--line2);border-radius:var(--radius);padding:4px 5px;font:12px/1 var(--mono)}
+.lbbtn.cart{color:#111;background:var(--hi);border-color:var(--hi)}
+.lbtags .cartbox{display:inline-flex;align-items:center;gap:5px;margin-left:auto}
 .bulk .msg{font:11px/1 var(--mono);color:var(--hi)}
 body.selmode .card{cursor:pointer}
 .card.sel{border-color:var(--sel);box-shadow:0 0 0 2px var(--sel)}
@@ -232,6 +235,8 @@ kbd{font:10px/1 var(--mono);border:1px solid var(--line2);border-bottom-width:2p
     <input id="bulkTag" list="tagList" placeholder="tag name" autocomplete="off" enterkeyhint="done">
     <button class="lbbtn" id="bulkAdd">+ Add tag</button>
     <button class="lbbtn" id="bulkDel">− Remove tag</button>
+    <select class="csize" id="bulkSize" title="Shirt size for the cart"></select>
+    <button class="lbbtn cart" id="bulkCart" title="Put one of each selected color in your BulkApparel cart (a color tagged qty 2 adds two)">Add to cart</button>
     <span class="msg" id="bulkMsg"></span>
     <div class="spacer"></div>
     <button class="lbbtn" id="selDone">Done</button>
@@ -528,6 +533,41 @@ function bulk(on){
   flash((on?"Tagged ":"Untagged ")+ch.length+" "+(ch.length===1?"color":"colors")+" "+t);
   afterTagChange();
 }
+/* ---------- add to cart on bulkapparel.com ----------
+   The store's cart takes a plain form post of  Color*Name[SIZE][item code][product id][] = quantity.
+   The post opens in a second tab (it carries that browser's own store session), and once the store has
+   answered, that tab is sent on to the cart page. Nothing is ordered: it only fills the cart. */
+const CART_POST="https://www.bulkapparel.com/addon/bulkaddtocart.php", CART_PAGE="https://www.bulkapparel.com/cart";
+const SIZES=["S","M","L","XL","2XL","3XL","4XL"], LSZ="bulk1717.size";
+let CSIZE="M"; try{ const s=localStorage.getItem(LSZ); if(SIZES.includes(s)) CSIZE=s; }catch(e){}
+function sizeSelect(sel){
+  sel.replaceChildren(...SIZES.map(s=>el("option",{value:s,textContent:s,selected:s===CSIZE})));
+  sel.onchange=()=>{ CSIZE=sel.value; try{ localStorage.setItem(LSZ,CSIZE); }catch(e){}
+    document.querySelectorAll(".csize").forEach(x=>{ x.value=CSIZE; }); };
+}
+// a tag like "qty 2" on a color sets how many of it go in the cart; otherwise one
+function cartQty(slug){ for(const t of tagsOf(slug)){ const m=/^qty (\d{1,3})$/.exec(t); if(m) return Math.max(1,+m[1]); } return 1; }
+function addToCart(colors){
+  const ok=colors.filter(c=>c.sk && c.sk[CSIZE]), skip=colors.length-ok.length;
+  if(!ok.length) return "Not sold in "+CSIZE+" on BulkApparel.";
+  const w=window.open("","bulkcart");
+  const f=el("form",{method:"post",action:CART_POST,target:"bulkcart"}); f.style.display="none";
+  let n=0, total=0;
+  for(const c of ok){ const q=cartQty(c.slug); n+=q; total+=q*c.sk[CSIZE][1];
+    f.append(el("input",{type:"hidden",name:c.name.replace(/ /g,"*")+"["+CSIZE+"]["+c.sk[CSIZE][0]+"]["+META.pid+"][]",value:q})); }
+  document.body.append(f); f.submit(); f.remove();
+  if(w){ // the tab turns unreadable the moment the store's answer lands: that is the cue to move on to the cart
+    let tries=0; const iv=setInterval(()=>{ let landed=false;
+      try{ landed = w.closed; void w.location.href; }catch(e){ landed=true; }
+      if(landed || ++tries>60){ clearInterval(iv); if(!w.closed) setTimeout(()=>{ try{ w.location.href=CART_PAGE; }catch(e){} }, landed?400:0); }
+    },250); }
+  return "Added "+n+" "+(n===1?"shirt":"shirts")+" ("+CSIZE+", about $"+total.toFixed(2)+") to your BulkApparel cart"+(skip?"; "+skip+" not sold in "+CSIZE:"")+".";
+}
+sizeSelect($("#bulkSize"));
+$("#bulkCart").onclick=()=>{
+  if(!S.sel.size){ flash("Pick some colors first."); return; }
+  flash(addToCart(COLORS.filter(c=>S.sel.has(c.slug))));
+};
 $("#bulkAdd").onclick=()=>bulk(true);
 $("#bulkDel").onclick=()=>bulk(false);
 $("#bulkTag").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); bulk(true); } });
@@ -649,6 +689,12 @@ function showTags(){
   inp.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); const v=inp.value; if(normTag(v)){ setTag([c.slug],v,true); afterTagChange(); $("#lbTags input").focus(); } } });
   box.append(inp);
   const bn=boughtNote(c.slug); if(bn) box.append(el("span",{className:"bnote",textContent:bn}));
+  if(c.sk){
+    const cb=el("span",{className:"cartbox"}), ss=el("select",{className:"csize",title:"Shirt size for the cart"}); sizeSelect(ss);
+    const q=cartQty(c.slug), go=el("button",{className:"lbbtn cart",textContent:"Add to cart"+(q>1?" ×"+q:""),title:"Put this color in your BulkApparel cart"});
+    go.onclick=()=>{ const msg=addToCart([c]); go.textContent=msg.startsWith("Added")?"Added ✓":msg; setTimeout(()=>{ go.textContent="Add to cart"+(q>1?" ×"+q:""); },2600); };
+    cb.append(ss,go); box.append(cb);
+  }
 }
 function syncStar(){
   const on = S.stars.has(cur().slug);

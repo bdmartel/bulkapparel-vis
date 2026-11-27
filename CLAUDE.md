@@ -62,6 +62,17 @@ Ben asked: tag the colors he has bought, and let him tag any color one at a time
   After a new order: read the order pages in his signed-in Chrome (bulkapparel.com/dashboard?page=orders),
   add the lines to bought.json and the "bought" tag to tags.json for each new color.
 
+## Add to cart (Nov 27, 2026)
+
+Ben asked for an add to cart button. One sits in each color's tag row (with a size picker, M by default) and one
+in the Select bar (adds one of each picked color). A color tagged `qty 2` adds two.
+- It posts a plain form to the store's `addon/bulkaddtocart.php` in a second tab (field name
+  `Color*Name[SIZE][item code][1822][]`, value = quantity; a GET does nothing), then sends that tab to the cart page.
+  It only fills the cart in whatever browser he is using; nothing is ordered.
+- Item codes and prices live in `scrape/skus.json`, read on Nov 27, 2026 by clicking each color on the store's
+  1717 page through `scrape/site.py` and reading the quantity inputs. `build_app.py` merges them into the page.
+  Banana is not on the store page, so it has no button. Reread the codes if the store changes its lineup.
+
 ## Re-scraping
 
 ```
