@@ -73,6 +73,9 @@ main{padding:14px}
 .ctags:empty{display:none}
 .tchip{font:10px/1 var(--mono);padding:3px 6px;border-radius:10px;border:1px solid var(--line2);color:var(--dim);background:var(--panel2);white-space:nowrap}
 .tchip.bought{color:#111;background:var(--hi);border-color:var(--hi)}
+.tchip.mine{color:var(--sel);border-color:var(--sel)}
+.tagf button.mine{color:var(--sel);border-color:var(--sel)}
+.tagf button.mine[data-st="1"]{color:#111;background:var(--sel);border-color:var(--sel)}
 .tagf{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
 .tagf .lbl{font-size:11px;color:var(--dim2);text-transform:uppercase;letter-spacing:.06em;margin-right:2px}
 .tagf button{font:11px/1 var(--mono);padding:4px 8px;border-radius:20px;border:1px solid var(--line);color:var(--dim);background:var(--panel2)}
@@ -315,6 +318,8 @@ const persist = ()=>localStorage.setItem(LS, JSON.stringify({
 }));
 
 /* ---------- tags ---------- */
+// tags Claude added start with "claude: " and are drawn in blue, so they stand apart from Ben's own
+const isMine = t => t.startsWith("claude: ");
 const tagsOf = slug => S.tags[slug] || [];
 const normTag = t => t.trim().toLowerCase().replace(/\s+/g," ").slice(0,40);
 function allTags(){
@@ -393,6 +398,7 @@ function buildTagFilter(){
   box.append(el("span",{className:"lbl",textContent:"Tags"}));
   for(const [t,n] of tags){
     const b=el("button",{title:"Click: only colors with this tag. Again: only colors without it. Again: off."});
+    if(isMine(t)) b.classList.add("mine");
     b.dataset.st = S.tf[t]||0;
     b.append(document.createTextNode((S.tf[t]===-1?"not ":"")+t), el("i",{textContent:n}));
     if(TAGEDIT){ b.title="Rename this tag on every color that has it"; b.prepend(document.createTextNode("\u270e ")); b.onclick=()=>editTag(t); }
@@ -485,7 +491,7 @@ function render(){
     const star = el("button",{className:"star",textContent:"★",title:"Save to shortlist (F)"});
     star.dataset.star = c.slug;
     const ct = el("div",{className:"ctags"});
-    for(const t of tagsOf(c.slug)) ct.append(el("span",{className:"tchip"+(t==="bought"?" bought":""),textContent:chipText(c.slug,t),
+    for(const t of tagsOf(c.slug)) ct.append(el("span",{className:"tchip"+(t==="bought"?" bought":"")+(isMine(t)?" mine":""),textContent:chipText(c.slug,t),
       title: t==="bought" ? boughtNote(c.slug) : ""}));
     card.append(el("span",{className:"selbox"}),ph,cap,ct,star);
     frag.append(card);
@@ -547,7 +553,7 @@ function sizeSelect(sel){
     document.querySelectorAll(".csize").forEach(x=>{ x.value=CSIZE; }); };
 }
 // a tag like "qty 2" on a color sets how many of it go in the cart; otherwise one
-function cartQty(slug){ for(const t of tagsOf(slug)){ const m=/^qty (\d{1,3})$/.exec(t); if(m) return Math.max(1,+m[1]); } return 1; }
+function cartQty(slug){ for(const t of tagsOf(slug)){ const m=/^(?:claude: )?qty (\d{1,3})$/.exec(t); if(m) return Math.max(1,+m[1]); } return 1; }
 // Chrome (not on iPhone) keeps the store's cart cookie back from a form posted by another site, so the add
 // lands in a cart nobody sees (tested Nov 27, 2026). Safari and Firefox send it. In Chrome the button opens
 // the store's page on that color and size instead. ?post=1 forces the form, for testing.
@@ -696,7 +702,7 @@ function showView(){
 function showTags(){
   const c=cur(), box=$("#lbTags"); box.textContent="";
   for(const t of tagsOf(c.slug)){
-    const chip=el("span",{className:"tchip"+(t==="bought"?" bought":"")});
+    const chip=el("span",{className:"tchip"+(t==="bought"?" bought":"")+(isMine(t)?" mine":"")});
     const x=el("button",{textContent:"×",title:"Remove "+t});
     x.onclick=()=>{ setTag([c.slug],t,false); afterTagChange(); };
     chip.append(document.createTextNode(chipText(c.slug,t)),x); box.append(chip);
