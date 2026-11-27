@@ -69,6 +69,8 @@ in the Select bar (adds one of each picked color). A color tagged `qty 2` adds t
 - It posts a plain form to the store's `addon/bulkaddtocart.php` in a second tab (field name
   `Color*Name[SIZE][item code][1822][]`, value = quantity; a GET does nothing), then sends that tab to the cart page.
   It only fills the cart in whatever browser he is using; nothing is ordered.
+- The page script is a plain global script, so a top-level function named `open` replaces `window.open`. That
+  silently broke the cart tab once; the viewer's opener is `openLb` for that reason. Do not name a function `open`.
 - **Works in Safari and Firefox, not in Chrome on a computer** (tested Nov 27, 2026). Chrome holds back the store's
   cart cookie (`csid`, no SameSite, so treated as Lax) on a form posted from another site: the store answers
   success but the item lands in a cart the cart page never shows. Safari on the Mac put two Yam in the cart.

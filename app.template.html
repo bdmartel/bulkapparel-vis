@@ -503,7 +503,7 @@ grid.addEventListener("click", e=>{
   const card = e.target.closest(".card");
   if(!card) return;
   if(S.selMode){ pick(+card.dataset.n, e.shiftKey); return; }
-  open(+card.dataset.n);
+  openLb(+card.dataset.n);
 });
 
 /* ---------- select + bulk tagging ---------- */
@@ -589,7 +589,7 @@ $("#bulkTag").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefa
 grid.addEventListener("keydown", e=>{
   const card = e.target.closest(".card");
   if(!card) return;
-  if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(+card.dataset.n); }
+  if(e.key==="Enter"||e.key===" "){ e.preventDefault(); openLb(+card.dataset.n); }
   if(e.key.toLowerCase()==="f"){ toggleStar(VIEW_LIST[+card.dataset.n].slug); }
 });
 
@@ -646,7 +646,7 @@ const LB = {open:false, n:0, v:0, play:null};
 const stage=$("#stage"), big=$("#big");
 let Z={s:1,x:0,y:0,base:null};
 
-function open(n){
+function openLb(n){
   LB.open=true; LB.n=n; LB.v=0;
   $("#lb").classList.add("open");
   document.body.style.overflow="hidden";
