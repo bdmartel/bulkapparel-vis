@@ -1,11 +1,12 @@
 # Session State
-**Updated:** 2026-11-27 09:17
+**Updated:** 2026-11-27 12:25
 **Chat:** bulkapparel-deals-check
 
 ## Currently Working On
 Black Friday check is done and texted to Ben. Waiting for Cyber Monday: a one-time job on the Mac opens a session here on Mon Nov 30, 2026 at 9:07 am to rerun the BulkApparel deal check and text Ben the result.
 
 ## Done This Session
+- Naming real shirts from photos (Nov 27): the neck labels carry no color name, so a shirt is named by narrowing to the colors tagged bought and comparing against the model photos. Edit tags (rename a tag everywhere) is live on the color page. Lesson in CLAUDE.md.
 - Tags on the color page (Nov 27, from the ops session): the 17 colors Ben has bought are tagged bought, with order dates; Select for bulk tagging, a tag row on each color, Tags filter with only/not. Synced for him when signed in. Details in CLAUDE.md.
 - Black Friday check (Nov 27): the Thanksgiving code GRATEFUL10 still works and takes 10% off any order under $1,000, with free shipping kept. At $1,000 and up nothing changed (bulk discount, codes refused). No separate Black Friday sale, 1717 prices unchanged. Findings in DEALS-2026-11-27.md, texted to Ben.
 - Earlier: Nov 18 baseline in DEALS-2026-11.md; Black Friday and Cyber Monday reruns set up.

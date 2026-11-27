@@ -38,6 +38,11 @@ via certbot (auto-renews). The GHA keypair is dedicated to this repo
   `scrape/map_colors.py`.
 - **The site's swatch hex is wrong for several dyes.** Sort, filter and chip colors
   come from the photographs, not from `data-clrcode`.
+- **The flat colors (`hex` / `avg` in `data/colors.json`) mislead for telling near shades apart** (Nov 27, 2026).
+  They make Moss look grayer than it is. To name a real shirt from a photo, compare against the model
+  photos in `images/`: Moss is greener and more saturated, Sage is a low-saturation yellow-gray green,
+  Hemp is darker and more yellow-olive. The neck labels carry no color name; narrow first to the colors
+  tagged bought (the list lives on the droplet, see Tags), then compare model photos.
 
 ## Tags (Nov 27, 2026)
 
