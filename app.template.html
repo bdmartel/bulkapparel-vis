@@ -571,9 +571,9 @@ function addToCart(colors){
     f.append(el("input",{type:"hidden",name:c.name.replace(/ /g,"*")+"["+CSIZE+"]["+c.sk[CSIZE][0]+"]["+META.pid+"][]",value:q})); }
   document.body.append(f); f.submit(); f.remove();
   if(w){ // the tab turns unreadable the moment the store's answer lands: that is the cue to move on to the cart
-    let tries=0; const iv=setInterval(()=>{ let landed=false;
-      try{ void w.location.href; }catch(e){ landed=true; }
-      if(landed || ++tries>=24){ clearInterval(iv);
+    const t0=Date.now(), iv=setInterval(()=>{ let landed=false;
+      try{ const h=w.location.href; landed = h!=="about:blank"; }catch(e){ landed=true; }
+      if(landed || Date.now()-t0>3000){ clearInterval(iv);   // by the clock, since a background tab's timers slow to one a second
         setTimeout(()=>{ try{ w.location.href=CART_PAGE; }catch(e){} }, 600); }
     },250); }
   return "Added "+n+" "+(n===1?"shirt":"shirts")+" ("+CSIZE+", about $"+total.toFixed(2)+") to your BulkApparel cart"+(skip?"; "+skip+" not sold in "+CSIZE:"")+".";
